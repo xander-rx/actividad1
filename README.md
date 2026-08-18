@@ -4,6 +4,13 @@ Creación de una barra lateral (*sidebar*) moderna y responsive usando HTML y CS
 
 (se subió de forma distinta a la estructura por problemas de git en mi maquina de la universidad) 
 
+## Tecnologías Usadas
+
+ - HTML5
+ - CSS
+ - SVG NATIVO (para los iconos)
+
+
 ## 📁 Estructura del Proyecto
 ```text
 mava/
@@ -11,3 +18,4 @@ mava/
 │   └── estilo.css
 └── README.md
 └── index.html
+
