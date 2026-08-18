@@ -3,7 +3,7 @@
 .sidebar {
   width: 260px;
   height: 100vh;
-  background: #131b2e;
+  background: #671d1d;
   display: flex;
   flex-direction: column;
   padding: 24px 16px;
@@ -21,7 +21,7 @@
 .logo-icon {
   width: 30px;
   height: 30px;
-  background: linear-gradient(135deg, #7c6bf0, #a78bfa);
+  background: linear-gradient(135deg, hsl(193, 30%, 79%), #caf1ff);
   clip-path: polygon(0% 100%, 25% 0%, 50% 60%, 75% 0%, 100% 100%, 75% 100%, 50% 45%, 25% 100%);
 }
 
@@ -55,7 +55,7 @@
 }
 
 .nav-item.active {
-  background: #6d5ef0;
+  background: #000000;
   color: #fff;
 }
 
@@ -101,7 +101,7 @@
 /* Para pantallas medianas o tablets (menos de 768px de ancho) */
 @media screen and (max-width: 768px) {
   .sidebar {
-    width: 80px; 
+    width: 80px; /* Reducimos el ancho de la barra para que solo muestre los iconos */
     padding: 16px 8px;
   }
 
